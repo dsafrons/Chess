@@ -1,0 +1,97 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoreConstantInTheMiddle" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E722" />
+          <option value="W605" />
+          <option value="E111" />
+          <option value="E128" />
+          <option value="E701" />
+          <option value="E127" />
+          <option value="E501" />
+          <option value="E303" />
+          <option value="E251" />
+          <option value="E261" />
+          <option value="E301" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N813" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="type" />
+          <option value="list" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pygame.sprite.Sprite.direction" />
+          <option value="pygame.sprite.Sprite.speed" />
+          <option value="pygame.sprite.Sprite.apply_gravity" />
+          <option value="dict.__getitem__" />
+          <option value="pygame.sprite.Sprite.facing_right" />
+          <option value="pygame.sprite.Sprite.on_ground" />
+          <option value="level.Level.dust" />
+          <option value="pygame.sprite.Sprite.reverse" />
+          <option value="pygame.sprite.Sprite.pos" />
+          <option value="pygame.sprite.Sprite.get_damage" />
+          <option value="pygame.sprite.Sprite.collision_rect" />
+          <option value="pygame.sprite.Sprite.value" />
+          <option value="tuple.__sub__" />
+          <option value="pygame.sprite.Sprite.draw" />
+          <option value="levels.code.level.Level.shot_bullet" />
+          <option value="levels.code.level.Level.bullet" />
+          <option value="levels.code.gun.Bullet.sprite" />
+          <option value="levels.code.main.json_save_file" />
+          <option value="pygame.sprite.Sprite.gravity" />
+          <option value="pygame.sprite.Sprite.jump_speed" />
+          <option value="pygame.sprite.Sprite.status" />
+          <option value="code.sprites.Ball.old_rect" />
+          <option value="main.Game.start_ticks" />
+          <option value="pygame.sprite.Sprite.run" />
+          <option value="pygame.sprite.Sprite.shown" />
+          <option value="pygame.sprite.Sprite.number" />
+          <option value="main.strikes" />
+          <option value="bool.__getitem__" />
+          <option value="pygame.sprite.Sprite.get_id" />
+          <option value="pygame.sprite.Sprite.items" />
+          <option value="pygame.sprite.Sprite.switch" />
+          <option value="pygame.sprite.Sprite.pan_pos" />
+          <option value="pygame.sprite.Sprite.scroll_pos" />
+          <option value="pygame.sprite.Sprite.distance_to_origin" />
+          <option value="pygame.sprite.Sprite.start_drag" />
+          <option value="pygame.sprite.Sprite.selected" />
+          <option value="pygame.sprite.Sprite.drag_end" />
+          <option value="pygame.sprite.Sprite.frames" />
+          <option value="pygame.sprite.Sprite.tile_id" />
+          <option value="pygame.sprite.Sprite.coin_type" />
+          <option value="pygame.sprite.Sprite.z" />
+          <option value="pygame.sprite.Sprite.original_distance_to_origin" />
+          <option value="pygame.sprite.Sprite.start_tile_size" />
+          <option value="project.code.sprites.Shell.player" />
+          <option value="project.code.level.CameraGroup.horizon_y" />
+          <option value="project.code.sprites.enemies.Shell.player" />
+          <option value="project.code.sprites.enemies.Tooth.player" />
+          <option value="pygame.sprite.Group.rect" />
+          <option value="project.code.sprites.enemies.Pearl.player" />
+          <option value="main.cellFormat" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

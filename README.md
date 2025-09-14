@@ -1,36 +1,58 @@
-# Chess using PyGame
+# Chess (PyGame)
 
-A simple chess game implemented in Python. Clean code, minimal dependencies, and clear separation between board/pieces logic and the UI layer.
+A two-player chess game written in Python with PyGame.  
+`main.py` handles the window, board state, input, and rendering.  
+`pieces.py` defines the piece classes and their legal moves.
 
 ## Features
+- Standard 8×8 board with PNG piece sprites
+- Piece classes: Pawn, Knight, Bishop, Rook, Queen, King
+- Mouse-based drag-and-drop movement
+- Special moves:
+  - **Castling**
+  - **En passant**
+  - **Pawn promotion**
+- Detection of check and checkmate
 
-- Standard chess rules (pieces, legal moves, turn order)
-- Board and piece sprites loaded from local assets
-- Single-player hot-seat (two people on one keyboard/mouse)
-- Simple, readable code split into main.py and pieces.py for easy extension
+## Requirements
+- Python 3.8+
+- [pygame](https://pypi.org/project/pygame/)
 
-## How to play
+Install with:
+```pip install pygame```
 
-- Click a piece to see/select a move.
-- Click a target square to move.
-- Turn alternates between White and Black.
+## Project Structure
+```
+Chess/
+├── main.py          # Game loop, input handling, rendering
+├── pieces.py        # Piece classes + legal move logic
+├── background.png   # Board background image
+├── piece_images/    # Piece sprites (PNG format)
+│   ├── bishop-b.png
+│   ├── bishop-w.png
+│   ├── king-b.png
+│   ├── king-w.png
+│   ├── knight-b.png
+│   ├── knight-w.png
+│   ├── pawn-b.png
+│   ├── pawn-w.png
+│   ├── queen-b.png
+│   ├── queen-w.png
+│   ├── rook-b.png
+│   └── rook-w.png
+├── README.md
+└── .gitignore
+```
 
-## Code overview
+## How to Play
+- Run main.py to start the game.
+- Use the mouse to click and drag pieces.
+- The game enforces legal moves only.
+- Checkmate ends the game (shown in console output).
 
-`pieces.py`
-
-- Defines classes for each piece (e.g., Pawn, Rook, Knight, Bishop, Queen, King)
-- Encapsulates move generation and legality checks
-- Keeps piece symbols, colors, and movement vectors together for clarity
-
-`main.py`
-
-- Initializes the window, board state, and assets (background.png, piece_images/*)
-- Handles input events (mouse and keys)
-- Renders board and pieces
-- Calls piece/board logic to validate moves and update game state
-
-## Assets
-
-- background.png for the board background
-- piece_images/ for piece sprites
+## Possible Improvements
+- Add stalemate detection
+- Visual indicators for legal moves and last move
+- Undo/redo with move history (PGN)
+- Basic AI opponent
+- GUI enhancements (menus, restart button, timers)

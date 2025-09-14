@@ -1,4 +1,4 @@
-# Chess (Python)
+# Chess using PyGame
 
 A simple chess game implemented in Python. Clean code, minimal dependencies, and clear separation between board/pieces logic and the UI layer.
 
